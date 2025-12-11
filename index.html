@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelSprout - Growing the Brand</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="images/logo.svg" alt="PixelSprout logo" class="logo" />
+            <ul class="nav-menu">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to PixelSprout</h1>
+            <p>Growing your brand with creativity and innovation.</p>
+            <button onclick="scrollToSection('services')">Explore Services</button>
+        </div>
+    </section>
+
+    <section id="services" class="content-section">
+        <h2>Our Services</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>Web Development</h3>
+                <p>Custom websites built with clean code and modern technologies.</p>
+            </div>
+            <div class="card">
+                <h3>Brand Design</h3>
+                <p>Logos, graphics, and identity systems.</p>
+            </div>
+            <div class="card">
+                <h3>Marketing Tools</h3>
+                <p>Promotional pages, ads, and digital campaigns.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="content-section">
+        <h2>About Us</h2>
+        <p>
+            PixelSprout is a creative agency dedicated to helping businesses grow their brand.
+            All images and graphics are original student-created work.
+        </p>
+    </section>
+
+    <section id="contact" class="content-section">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025-2026 PixelSprout. All rights reserved. Student Original Project.</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
